@@ -4,7 +4,7 @@ Basic monitoring dashboard using Netdata.
 ## Installation
 ```
 git clone https://github.com/ami-chuu/simple-monitoring
-cd simple-monitoring
+cd simple-monitoring-dashboard
 chmod +x setup.sh
 ./setup.sh
 ```
@@ -18,13 +18,13 @@ For testing the dashboard use this script <br>
 60 sec stressing CPU, Memory and Disk I/O <br>
 Dependence: stress-ng
 ```
-cd simple-monitoring
+cd simple-monitoring-dashboard
 chmod +x test_dashboard.sh
 ./test_dashboard.sh
 ```
 ## Cleaning Up
 ```
-cd simple-monitoring
+cd simple-monitoring-dashboard
 chmod +x cleanup.sh
 ./cleanup.sh
 ```
